@@ -1,4 +1,4 @@
-import ClassContent from "./ClassContent"
+import ClassContent from "@/app/(guest)/class/classContent";
 
 export const metadata = {
   title: 'Kelas | LinkBee',
