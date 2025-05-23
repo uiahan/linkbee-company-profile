@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.prose-content h2 {
+  @apply text-2xl font-bold mt-6 mb-2;
+}
+
+.prose-content h3 {
+  @apply text-xl font-semibold mt-4 mb-2;
+}
+
+.prose-content p {
+  @apply text-base mb-4;
+}
+
+.prose-content ul {
+  @apply list-disc pl-6 mb-4;
+}
+
+.prose-content ol {
+  @apply list-decimal pl-6 mb-4;
+}
+
+.prose-content blockquote {
+  @apply border-l-4 border-gray-300 pl-4 italic text-gray-600 mb-4;
+}
+
+/* globals.css */
+.center-toast {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  min-height: 100vh !important;
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100vw !important;
+  pointer-events: none; /* biar ga ganggu klik */
+}
+
